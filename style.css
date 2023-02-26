@@ -1,0 +1,99 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"sofia"
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    /* background-color: blue; */
+    height: 100vh;
+    width: 255px;
+    border: 3px solid rgb(238, 147, 147);
+    border-radius: 12px;
+
+
+}
+
+aside img{
+    height: 100vh;
+    /* width: auto; */
+    margin-left: 20px;
+}
+/* aside h2{
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+} */
+aside {
+    height: 100vh;
+    width: auto;
+    text-align: center; 
+} 
+aside img {
+    height: 100vh;
+    width: auto;
+}
+
+section .logo img{
+    margin-left: 30px;
+    padding: 11px;
+    border-radius: 40%;
+}
+
+section {
+    margin-left: 15px;
+    padding: 27px;
+}
+
+aside h2 {
+    background-color: #c4c4ef;
+    margin-top: 14px;
+    padding: 18px;
+    border-radius: 30px;
+}
+section h2 {
+    /* background-color: rgb(210, 222, 245); */
+    border-radius: 23%;
+    
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+ span{
+    color:red;
+    font-size:small;
+}
+
+.nav ul li {
+    list-style: none;
+  
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-size: bold;
+    font-family: "sofia";
+}
+
+.nav ul li a:hover{
+    color: red;
+   
+    
+}
+
+
+h2 {
+    color: #8888e7;
+}
